@@ -1,5 +1,5 @@
 #!/bin/sh
-
+java -cp biblio epsi.biblio.App
 JARFILE="${1:-biblio.jar}"
 
 cat data/_liste.txt data/fg67hIOrf.txt | java -cp $JARFILE epsi.biblio.App > wwwroot/fg67hIOrf.html
